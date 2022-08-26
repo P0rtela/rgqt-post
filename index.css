@@ -1,0 +1,57 @@
+@font-face { 
+    font-family: "rgqt-font"; 
+    src: url('GALACTIC\ VANGUARDIAN\ NCV.otf');
+}
+
+body{
+    margin:0;
+    font-family: "rgqt-font";
+    background-color: #080;
+    color: #fff;
+}
+
+.texto{
+    display: flex;
+    position: absolute;
+    bottom: 9px;
+    margin-left: 10px;
+    line-height: 19px;
+}
+
+input{
+    margin: 5px 5px 5px 5px;
+}
+
+#barra {
+    background-color: #fff;
+    width: 5px;
+    height: 40px;
+    position: relative;
+    bottom: -14px;
+    border-radius: 20px;
+    margin-right: 6px;
+}
+
+.texto>p {
+    margin-bottom: 0;
+    text-shadow:
+    -1.8px -1.8px 0 #000,
+     0   -1.8px 0 #000,
+     1.8px -1.8px 0 #000,
+     1.8px  0   0 #000,
+     1.8px  1.8px 0 #000,
+     0    1.8px 0 #000,
+    -1.8px  1.8px 0 #000,
+    -1.8px  0   0 #000;
+}
+
+.texto>p span{
+    color: #f0f;
+}
+
+.imagem img {
+    position: absolute;
+    bottom: 0;
+    z-index: -100;
+    width: 100%;
+}
